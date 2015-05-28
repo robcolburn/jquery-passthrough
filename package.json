@@ -4,7 +4,7 @@
   "description": "A means to pass a pointer event to elements visually beneath it.",
   "main": "jquery.passthrough.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "mocha-phantomjs ./test/runner.html"
   },
   "repository": {
     "type": "git",
@@ -26,9 +26,8 @@
   "devDependencies": {
     "chai": "^2.2.0",
     "chai-as-promised": "^4.3.0",
-    "gulp": "^3.8.11",
-    "gulp-mocha-phantomjs": "^0.6.1",
     "jquery": "^2.1.3",
-    "mocha": "^2.2.3"
+    "mocha": "^2.2.3",
+    "mocha-phantomjs": "^3.5.3"
   }
 }
